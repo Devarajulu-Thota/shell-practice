@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#this is comment
 NUMBER1=devaraj
 NUMBER2=200
 
