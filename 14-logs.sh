@@ -59,5 +59,5 @@ then
     dnf install nginx -y &>>$LOG_FILE
     VALIDATE $? "nginx"
 else
-    echo -e "Nothing to do nginx... $Y already installed $N" | tee -a $LOG_FILE
+    echo -e "Nothing to do nginx... $Y already installed $N" &>>$LOG_FILE
 fi
