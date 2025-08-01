@@ -10,7 +10,7 @@ else
     echo "You are running with root access"
 fi 
 
-dnf install mysqldfddfd
+dnf install mysqldfddfd -y
 # dnf list installed mysql
 
 # # check already installed or not. if Installed $? is 0, then
