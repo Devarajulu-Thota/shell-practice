@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#this is comment
 NUMBER1=dev
 NUMBER2=200
 
