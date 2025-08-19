@@ -8,7 +8,7 @@ then
     exit 1 #give other than 0 upto 127
 fi
 
-dnf install mysqldsfs -y
+dnf install mysql -y
 
 if [ $? -eq 0 ]
 then
