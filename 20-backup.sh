@@ -70,7 +70,7 @@ then
     if [ -f $ZIP_FILE ]
     then
         echo -e "Successfully created Zip file"
-        
+          
         while IFS= read -r filepath
         do
             echo "Deleting file: $filepath" | tee -a $LOG_FILE
