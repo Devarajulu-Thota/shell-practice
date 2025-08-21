@@ -31,7 +31,6 @@ VALIDATE(){
     fi
 }
 
-
 echo "Script started executing at $(date)" | tee -a $LOG_FILE
 
 FILES_TO_DELETE=$(find $SOURCE_DIR -name "*.log" -mtime +14)
